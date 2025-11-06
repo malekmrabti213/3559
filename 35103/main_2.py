@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 import sys
+sys.path.insert(0, '/root')
+
 mat_mul = __import__('1-multiply').mat_mul
 m1 = [[6, -3], [5, 2], [8, 4]]
 m2 = [[9, 0, 10, 5], [2, 3, 7, 1]]
