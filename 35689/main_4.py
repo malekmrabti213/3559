@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-import random
+
+import sys
+sys.path.insert(0, '/root')
+
 
 canUnlockAll = __import__('2-lockboxes').canUnlockAll
 
